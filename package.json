@@ -1,0 +1,32 @@
+{
+	"name": "@jszymanowski/biomejs-config",
+	"version": "0.0.1",
+	"description": "My personal biome.js config",
+	"author": "John Szymanowski <dev@john.szymanow.ski>",
+	"license": "MIT",
+	"homepage": "https://github.com/jszymanowski/biomejs-config",
+	"bugs": "https://github.com/jszymanowski/biomejs-config/issues",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jszymanowski/biomejs-config.git"
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
+	"main": "biome.jsonc",
+	"files": [
+		"biome.jsonc"
+	],
+	"scripts": {
+		"format": "biome format --write .",
+		"lint": "biome check .",
+		"lint:ci": "biome ci .",
+		"lint:fix": "biome check --write --unsafe ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.0.0-beta.1"
+	},
+	"keywords": [],
+	"packageManager": "pnpm@10.5.2"
+}
