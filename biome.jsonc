@@ -35,45 +35,12 @@
 		}
 	},
 
-	// Linter rules - previously biome 1.0's recommended:true options, expanded in 2.0
+	// Linter rules
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"style": {
-				"noNonNullAssertion": "off",
-				"noUnusedTemplateLiteral": "off",
-				"noUselessElse": "off",
-				"useTemplate": "off",
-				"useLiteralEnumMembers": "error",
-				"noCommaOperator": "error",
-				"useNodejsImportProtocol": "error",
-				"useAsConstAssertion": "error",
-				"useNumericLiterals": "error",
-				"useEnumInitializers": "error",
-				"useSelfClosingElements": "error",
-				"useConst": "error",
-				"useSingleVarDeclarator": "error",
-				"useNumberNamespace": "error",
-				"noInferrableTypes": "error",
-				"useExponentiationOperator": "error",
-				"noParameterAssign": "error",
-				"useDefaultParameterLast": "error",
-				"noArguments": "error",
-				"useImportType": "error",
-				"useExportType": "error",
-				"useShorthandFunctionType": "error"
-			},
-			"a11y": {
-				"noSvgWithoutTitle": "off",
-				"useAltText": "off",
-				"useButtonType": "off",
-				"useKeyWithClickEvents": "off",
-				"useSemanticElements": "off"
-			},
-			"correctness": {
-				"noChildrenProp": "off",
-				"useExhaustiveDependencies": "off"
-			},
+			"recommended": true,
+			// Replacement for prettier-tailwind
 			"nursery": {
 				"useSortedClasses": {
 					"level": "error",
@@ -83,13 +50,6 @@
 						"functions": ["cn"]
 					}
 				}
-			},
-			"complexity": {
-				"noForEach": "off",
-				"noUselessFragments": "off"
-			},
-			"suspicious": {
-				"noArrayIndexKey": "off"
 			}
 		}
 	},
