@@ -1,4 +1,4 @@
-This is my personal [biome](https://biomejs.dev) configuration.  It's currently based on the 2.0 beta, as I've experienced a number of issues with recent stable 1.9.x release in multi-root workplaces.  2.0.0-beta1 seems to resolve these.
+This is my personal [biome](https://biomejs.dev) configuration.  It's currently based on the [2.0.0 beta](https://biomejs.dev/blog/biome-v2-0-beta/), as I've experienced a number of issues with recent stable 1.9.x release in multi-root workplaces.  2.0.0-beta1 seems to resolve these.
 
 
 ### Key features
@@ -11,14 +11,14 @@ This is my personal [biome](https://biomejs.dev) configuration.  It's currently 
 Firstly, install [biome](https://biomejs.dev) and this [configuration](https://www.npmjs.com/package/@jszymanowski/biomejs-config):
 
 ```bash
-pnpm i -D @jszymanowski/biomejs-config @biomejs/biome
+pnpm i -D --save-exact @jszymanowski/biomejs-config @biomejs/biome@beta
 ```
 
 Then, add the following to your `biome.json`:
 
 ```json
 {
-  "$schema": "https://biomejs.dev/schemas/latest/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.0.0-beta.1/schema.json",
   "extends": ["@jszymanowski/biomejs-config"]
 }
 ```
