@@ -1,6 +1,6 @@
 {
   "name": "@jszymanowski/biomejs-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "My personal biome.js config",
   "author": "John Szymanowski <dev@john.szymanow.ski>",
   "license": "MIT",
