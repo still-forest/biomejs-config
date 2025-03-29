@@ -11,7 +11,7 @@ This is my personal [biome](https://biomejs.dev) configuration.  It's currently 
 Firstly, install [biome](https://biomejs.dev) and this [configuration](https://www.npmjs.com/package/@jszymanowski/biomejs-config):
 
 ```bash
-pnpm i -D @jszymanowski/biomejs-config @biomejs/biome
+pnpm i -D --save-exact @jszymanowski/biomejs-config @biomejs/biome@beta
 ```
 
 Then, add the following to your `biome.json`:
