@@ -1,7 +1,10 @@
-name: Release & publish (release-please)
+name: Publish (release-please)
 
 on:
   push:
+    paths:
+      - 'biome.jsonc'
+      - '.github/workflows/publish.yml'
     branches:
       - main
   workflow_dispatch:
@@ -23,16 +26,11 @@ jobs:
         id: release
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
             
   publish:
     needs: release-please
     if: ${{ needs.release-please.outputs.release_created }}
     runs-on: ubuntu-latest
-    
-    defaults:
-      run:
-        working-directory: ./packages/react
 
     steps:
       - name: Checkout code
@@ -52,8 +50,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build package
-        run: pnpm build
+      - name: Run lint, to confirm no errors
+        run: pnpm lint
 
       - name: Publish to npm Registry
         run: pnpm publish --no-git-checks
