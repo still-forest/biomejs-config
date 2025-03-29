@@ -46,7 +46,7 @@
       "style": {
         "noNonNullAssertion": "off"
       },
-      // Replacement for prettier-tailwind
+      // Replacement for eslint prettier-tailwind
       "nursery": {
         "useSortedClasses": {
           "level": "error",
