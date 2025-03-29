@@ -4,7 +4,7 @@ This is my personal [biome](https://biomejs.dev) configuration.  It's currently 
 ### Key features
 - Uses your `.gitignore` to avoid formatting unuseful files and directories.
 - Up to 100 chars per line for modern monitors.
-- Single quotes, no trailing commas, semicolons
+- Double quotes, trailing commas, semicolons
 - Spacing: spaces instead of tabs, 2 instead of 4
 
 ### Usage
