@@ -1,18 +1,22 @@
-**Key features:**
-- Uses your `.gitignore` to avoid formatting unuseful files and directories.
-- Up to 100 chars per line for modern monitors.
-- Single quotes, no trailing commas, semicolons and spaces instead of tabs.
+This is my personal [biome](https://biomejs.dev) configuration.  It's currently based on the 2.0 beta, as I've experienced a number of issues with recent stable 1.9.x release in multi-root workplaces.  2.0.0-beta1 seems to resolve these.
+
+
+### Key features
+- Uses `.gitignore` to avoid formatting unuseful files and directories
+- Up to 100 chars per line
+- Spacing: spaces instead of tabs, 2 instead of 4
+- JavaScript: double quotes, trailing commas, semicolons
 
 ### Usage
 Firstly, install [biome](https://biomejs.dev) and this [configuration](https://www.npmjs.com/package/@jszymanowski/biomejs-config):
 
-```sh
+```bash
 pnpm i -D @jszymanowski/biomejs-config @biomejs/biome
 ```
 
-Then add the following to your `biome.json`:
+Then, add the following to your `biome.json`:
 
-```jsonc
+```json
 {
   "$schema": "https://biomejs.dev/schemas/latest/schema.json",
   "extends": ["@jszymanowski/biomejs-config"]
@@ -21,7 +25,7 @@ Then add the following to your `biome.json`:
 
 And finally, add the following scripts to your `package.json` to easily format and lint your code:
 
-```jsonc
+```json
 {
   "scripts": {
     "format": "biome format --write .",

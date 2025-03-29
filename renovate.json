@@ -1,0 +1,14 @@
+{
+  "automerge": false,
+  "commitMessagePrefix": "chore(deps): ",
+  "enabledManagers": ["npm"],
+  "extends": ["config:best-practices"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "recreateWhen": "auto",
+    "schedule": ["before 5am on tuesday"],
+    "automerge": true
+  },
+  "prHourlyLimit": 5,
+  "prConcurrentLimit": 10
+}
