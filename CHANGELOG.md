@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/jszymanowski/biomejs-config/compare/v1.0.0...v1.1.0) (2025-04-07)
+
+
+### Features
+
+* Increase line length ([#14](https://github.com/jszymanowski/biomejs-config/issues/14)) ([8852ff1](https://github.com/jszymanowski/biomejs-config/commit/8852ff1407d44cb3457ccc90c7bd98bf8dd059f8))
+
 ## [1.0.0](https://github.com/jszymanowski/biomejs-config/compare/v1.0.0...v1.0.0) (2025-03-29)
 
 
