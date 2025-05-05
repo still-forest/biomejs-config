@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/jszymanowski/biomejs-config/compare/v1.1.0...v1.2.0) (2025-05-05)
+
+
+### Features
+
+* Use 2.0.0-beta.2 ([#24](https://github.com/jszymanowski/biomejs-config/issues/24)) ([b7fb78c](https://github.com/jszymanowski/biomejs-config/commit/b7fb78c37ced245d65d7679aeabd4b8233920a2c))
+
 ## [1.1.0](https://github.com/jszymanowski/biomejs-config/compare/v1.0.0...v1.1.0) (2025-04-07)
 
 
