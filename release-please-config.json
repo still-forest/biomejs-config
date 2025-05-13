@@ -3,7 +3,7 @@
   "packages": {
     ".": {
       "release-type": "node",
-      "package-name": "@jszymanowski/biomejs-config",
+      "package-name": "@still-forest/biomejs-config",
       "include-component-in-tag": false,
       "changelog-sections": [
         { "type": "feat", "section": "Features" },
