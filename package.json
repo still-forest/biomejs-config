@@ -1,14 +1,14 @@
 {
-  "name": "@jszymanowski/biomejs-config",
+  "name": "@still-forest/biomejs-config",
   "version": "1.2.0",
-  "description": "My personal biome.js config",
-  "author": "John Szymanowski <dev@john.szymanow.ski>",
+  "description": "biome.js config for Still Forest",
+  "author": "John Szymanowski <john@stillforest.dev>",
   "license": "MIT",
-  "homepage": "https://github.com/jszymanowski/biomejs-config",
-  "bugs": "https://github.com/jszymanowski/biomejs-config/issues",
+  "homepage": "https://github.com/still-forest/biomejs-config",
+  "bugs": "https://github.com/still-forest/biomejs-config/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jszymanowski/biomejs-config.git"
+    "url": "git+https://github.com/still-forest/biomejs-config.git"
   },
   "publishConfig": {
     "access": "public",
@@ -25,7 +25,7 @@
     "lint:fix": "biome check --write --unsafe ."
   },
   "devDependencies": {
-    "@biomejs/biome": "2.0.0-beta.2"
+    "@biomejs/biome": "2.0.0-beta.3"
   },
   "keywords": [],
   "packageManager": "pnpm@10.10.0"
