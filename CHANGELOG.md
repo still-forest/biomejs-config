@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/still-forest/biomejs-config/compare/v1.2.0...v1.3.0) (2025-05-13)
+
+
+### Features
+
+* Update Biome to 2.0.0-beta.3; move to Still Forest org ([#26](https://github.com/still-forest/biomejs-config/issues/26)) ([2d58459](https://github.com/still-forest/biomejs-config/commit/2d58459aa27989fda036eafeb96a4d75ad455fbf))
+
 ## [1.2.0](https://github.com/still-forest/biomejs-config/compare/v1.1.0...v1.2.0) (2025-05-05)
 
 ### Features
