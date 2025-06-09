@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/still-forest/biomejs-config/compare/v1.3.0...v1.3.1) (2025-06-09)
+
+
+### Bug Fixes
+
+* Add exports to be compatible with latest v2 beta ([#39](https://github.com/still-forest/biomejs-config/issues/39)) ([0011853](https://github.com/still-forest/biomejs-config/commit/0011853164cefe56053e630c7d3215339dbc77d4))
+
 ## [1.3.0](https://github.com/still-forest/biomejs-config/compare/v1.2.0...v1.3.0) (2025-05-13)
 
 
