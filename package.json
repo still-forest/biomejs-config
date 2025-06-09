@@ -14,7 +14,9 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "main": "biome.jsonc",
+  "exports": {
+    ".": "./biome.jsonc"
+  },
   "files": [
     "biome.jsonc"
   ],
