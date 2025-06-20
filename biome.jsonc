@@ -32,8 +32,8 @@
     "actions": {
       "source": {
         "organizeImports": "on",
-        "useSortedKeys": "off", // TODO: enable in 1.0
-        "useSortedAttributes": "off" // TODO: enable in 1.0
+        "useSortedKeys": "on",
+        "useSortedAttributes": "on"
       }
     }
   },
