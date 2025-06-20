@@ -7,11 +7,10 @@ settings:
 importers:
 
   .:
-    dependencies:
-      '@biomejs/biome':
-        specifier: ^2.0.2
-        version: 2.0.2
     devDependencies:
+      '@biomejs/biome':
+        specifier: 2.0.2
+        version: 2.0.2
       release-it:
         specifier: 19.0.3
         version: 19.0.3
