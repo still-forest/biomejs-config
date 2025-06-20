@@ -19,25 +19,6 @@
     ]
   },
 
-  // Formatting rules
-  "formatter": {
-    "enabled": true,
-    "indentStyle": "space",
-    "indentWidth": 2,
-    "lineWidth": 120
-  },
-
-  // Organizers
-  "assist": {
-    "actions": {
-      "source": {
-        "organizeImports": "on",
-        "useSortedKeys": "on",
-        "useSortedAttributes": "on"
-      }
-    }
-  },
-
   // Linter rules
   "linter": {
     "enabled": true,
@@ -46,7 +27,7 @@
       "style": {
         "noNonNullAssertion": "off"
       },
-      // Replacement for eslint prettier-tailwind
+      // Replacement for eslint prettier-tailwind -- check this
       "nursery": {
         "useSortedClasses": {
           "level": "error",
@@ -60,31 +41,42 @@
     }
   },
 
-  // Enable CSS
-  "css": {
-    "formatter": {
-      "enabled": true
-    },
-    "linter": {
-      "enabled": true
-    }
+  // Formatting rules
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 120
   },
 
-  // JavaScript-specific rules
-  "javascript": {
-    "formatter": {
-      "quoteStyle": "double"
-    }
-  },
-
-  // JSON overrides
-  "overrides": [
-    {
-      "includes": ["**/*.json", "**/*.jsonc"],
-      "formatter": {
-        "indentStyle": "space",
-        "indentWidth": 2
+  // Assistants
+  "assist": {
+    "enabled": true,
+    "actions": {
+      "source": {
+        "organizeImports": "on",
+        "useSortedKeys": "on",
+        "useSortedAttributes": "on"
       }
     }
-  ]
+  },
+
+  // JavaScript rules
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "double",
+      "jsxQuoteStyle": "double",
+      "trailingCommas": "all",
+      "semicolons": "always",
+      "arrowParentheses": "always",
+    }
+  },
+
+  // JSON rules
+  "json": {
+    "parser": {
+      "allowComments": true,
+      "allowTrailingCommas": true
+    }
+  }
 }
