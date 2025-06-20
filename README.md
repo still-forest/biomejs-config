@@ -36,3 +36,9 @@ And finally, add the following scripts to your `package.json` to easily format a
   }
 }
 ```
+
+### Configuration
+
+https://biomejs.dev/guides/configure-biome/
+https://biomejs.dev/guides/big-projects/#share-the-configuration
+https://biomejs.dev/reference/configuration/

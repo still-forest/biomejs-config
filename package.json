@@ -14,8 +14,9 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "type": "module",
   "exports": {
-    ".": "./biome.jsonc"
+    "./biome": "./biome.jsonc"
   },
   "files": [
     "biome.jsonc"
@@ -29,6 +30,5 @@
   "peerDependencies": {
     "@biomejs/biome": ">=2.0.2"
   },
-  "keywords": [],
   "packageManager": "pnpm@10.12.1"
 }
