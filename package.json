@@ -14,8 +14,10 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "type": "module",
   "exports": {
-    ".": "./biome.jsonc"
+    ".": "./biome.jsonc",
+    "./biome": "./biome.jsonc"
   },
   "files": [
     "biome.jsonc"
@@ -24,11 +26,16 @@
     "format": "biome format --write .",
     "lint": "biome check .",
     "lint:ci": "biome ci .",
-    "lint:fix": "biome check --write --unsafe ."
+    "lint:fix": "biome check --write --unsafe .",
+    "release": "release-it",
+    "release:dry-run": "release-it --dry-run"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "^2.0.4"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.0.0"
+    "@biomejs/biome": "2.0.4",
+    "release-it": "19.0.3"
   },
-  "keywords": [],
   "packageManager": "pnpm@10.12.1"
 }
