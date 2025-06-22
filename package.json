@@ -1,6 +1,6 @@
 {
   "name": "@still-forest/biomejs-config",
-  "version": "1.3.1",
+  "version": "2.0.0",
   "description": "biome.js config for Still Forest",
   "author": "John Szymanowski <john@stillforest.dev>",
   "license": "MIT",
