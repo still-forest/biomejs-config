@@ -55,7 +55,7 @@
         // JavaScript & JSON
         "organizeImports": "on",
         "useSortedAttributes": "on",
-        "useSortedKeys": "on",
+        "useSortedKeys": "off",
         // CSS
         "useSortedProperties": "on"
       }
@@ -80,19 +80,5 @@
       "allowComments": true,
       "allowTrailingCommas": true
     }
-  },
-
-  "overrides": [
-    // Don't sort keys in JSON files
-    {
-      "includes": ["**/*.json", "**/*.jsonc"],
-      "assist": {
-        "actions": {
-          "source": {
-            "useSortedKeys": "off"
-          }
-        }
-      }
-    }
-  ]
+  }
 }
