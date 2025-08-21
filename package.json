@@ -31,7 +31,7 @@
     "release:dry-run": "release-it --dry-run"
   },
   "peerDependencies": {
-    "@biomejs/biome": ">=2.0.4, <3.0.0"
+    "@biomejs/biome": "^2.2.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
