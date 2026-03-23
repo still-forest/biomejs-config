@@ -545,8 +545,8 @@ packages:
     resolution: {integrity: sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==}
     hasBin: true
 
-  json-with-bigint@3.5.7:
-    resolution: {integrity: sha512-7ei3MdAI5+fJPVnKlW77TKNKwQ5ppSzWvhPuSuINT/GYW9ZOC1eRKOuhV9yHG5aEsUPj9BBx5JIekkmoLHxZOw==}
+  json-with-bigint@3.5.8:
+    resolution: {integrity: sha512-eq/4KP6K34kwa7TcFdtvnftvHCD9KvHOGGICWwMFc4dOOKF5t4iYqnfLK8otCRCRv06FXOzGGyqE8h8ElMvvdw==}
 
   lodash.capitalize@4.2.1:
     resolution: {integrity: sha512-kZzYOKspf8XVX5AvmQF94gQW0lejFVgb80G85bU4ZWzoJ6C03PQg3coYAUpSTpQWelrZELd3XWgHzw4Ck5kaIw==}
@@ -1032,7 +1032,7 @@ snapshots:
       '@octokit/request-error': 7.1.0
       '@octokit/types': 16.0.0
       fast-content-type-parse: 3.0.0
-      json-with-bigint: 3.5.7
+      json-with-bigint: 3.5.8
       universal-user-agent: 7.0.3
 
   '@octokit/rest@22.0.1':
@@ -1296,7 +1296,7 @@ snapshots:
 
   jiti@2.6.1: {}
 
-  json-with-bigint@3.5.7: {}
+  json-with-bigint@3.5.8: {}
 
   lodash.capitalize@4.2.1: {}
 
