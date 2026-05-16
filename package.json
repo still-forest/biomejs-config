@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.15",
-    "release-it": "19.2.4"
+    "release-it": "20.0.1"
   },
   "packageManager": "pnpm@10.33.4"
 }
