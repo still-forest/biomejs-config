@@ -26,16 +26,13 @@
     "format": "biome format --write .",
     "lint": "biome check .",
     "lint:ci": "biome ci .",
-    "lint:fix": "biome check --write --unsafe .",
-    "release": "release-it",
-    "release:dry-run": "release-it --dry-run"
+    "lint:fix": "biome check --write --unsafe ."
   },
   "peerDependencies": {
-    "@biomejs/biome": "^2.3.2"
+    "@biomejs/biome": "^2.5.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.3",
-    "release-it": "19.2.4"
+    "@biomejs/biome": "2.5.3"
   },
   "packageManager": "pnpm@11.11.0"
 }
