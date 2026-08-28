@@ -32,7 +32,7 @@
     "@biomejs/biome": "^2.5.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.9"
+    "@biomejs/biome": "2.5.10"
   },
   "packageManager": "pnpm@11.22.0"
 }
