@@ -51,7 +51,6 @@ A downstream project's `biome.json` may be extended to override or add rules to 
 ```
 
 For more information:
-
 - https://biomejs.dev/guides/configure-biome/
 - https://biomejs.dev/guides/big-projects/#share-the-configuration
 - https://biomejs.dev/reference/configuration/
