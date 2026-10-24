@@ -1,6 +1,6 @@
 {
   "name": "@still-forest/biomejs-config",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "biome.js config for Still Forest",
   "author": "John Szymanowski <john@stillforest.dev>",
   "license": "MIT",
@@ -29,10 +29,10 @@
     "lint:fix": "biome check --write --unsafe ."
   },
   "peerDependencies": {
-    "@biomejs/biome": "^2.5.3"
+    "@biomejs/biome": "^2.6.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.15"
+    "@biomejs/biome": "2.6.2"
   },
-  "packageManager": "pnpm@11.28.6"
+  "packageManager": "pnpm@12.15.0"
 }

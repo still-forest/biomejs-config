@@ -2,17 +2,15 @@
 
 ## [1.3.1](https://github.com/still-forest/biomejs-config/compare/v1.3.0...v1.3.1) (2025-06-09)
 
-
 ### Bug Fixes
 
-* Add exports to be compatible with latest v2 beta ([#39](https://github.com/still-forest/biomejs-config/issues/39)) ([0011853](https://github.com/still-forest/biomejs-config/commit/0011853164cefe56053e630c7d3215339dbc77d4))
+- Add exports to be compatible with latest v2 beta ([#39](https://github.com/still-forest/biomejs-config/issues/39)) ([0011853](https://github.com/still-forest/biomejs-config/commit/0011853164cefe56053e630c7d3215339dbc77d4))
 
 ## [1.3.0](https://github.com/still-forest/biomejs-config/compare/v1.2.0...v1.3.0) (2025-05-13)
 
-
 ### Features
 
-* Update Biome to 2.0.0-beta.3; move to Still Forest org ([#26](https://github.com/still-forest/biomejs-config/issues/26)) ([2d58459](https://github.com/still-forest/biomejs-config/commit/2d58459aa27989fda036eafeb96a4d75ad455fbf))
+- Update Biome to 2.0.0-beta.3; move to Still Forest org ([#26](https://github.com/still-forest/biomejs-config/issues/26)) ([2d58459](https://github.com/still-forest/biomejs-config/commit/2d58459aa27989fda036eafeb96a4d75ad455fbf))
 
 ## [1.2.0](https://github.com/still-forest/biomejs-config/compare/v1.1.0...v1.2.0) (2025-05-05)
 
