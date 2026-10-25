@@ -8,7 +8,8 @@
       "!**/dist",
       "!**/src/components/ui", // ShadCn/Radix UI
       "!**/src/routeTree.gen.ts", // Tanstack Router
-      "!**/public/mockServiceWorker.js" // MockServiceWorker
+      "!**/public/mockServiceWorker.js", // MockServiceWorker
+      "!**/pnpm-lock.yaml" 
     ]
   },
 
